@@ -1,0 +1,2 @@
+tmp.icns
+tmp.iconset
