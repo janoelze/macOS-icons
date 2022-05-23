@@ -93,7 +93,7 @@ do
     basename="${src_image%%.*}"
     path=$src_image
     base=${path##*/}
-    echo "| <img src='${f}' width='370'>  | [.icns](icons/${base}) [.png](pngs/${base})  |" >> readme.md
+    echo "| <img src='${f}' width='370'>  | [.icns](icons/${base%.*}.icns) [.png](pngs/${base%.*}.png)  |" >> readme.md
 done
 
 exit 0
