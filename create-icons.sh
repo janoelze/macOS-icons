@@ -84,11 +84,16 @@ do
 done
 
 echo "# macOS Application Icons" > readme.md
+echo "| Icon  | _Get it_ |" >> readme.md
+echo "| ------------- | ------------- |" >> readme.md
 
 FILES="pngs/*.png"
 for f in $FILES
 do
-    echo "<img src='${f}' width='370'>" >> readme.md
+    basename="${src_image%%.*}"
+    path=$src_image
+    base=${path##*/}
+    echo "| <img src='${f}' width='370'>  | [.icns](icons/${base}) [.png](pngs/${base})  |" >> readme.md
 done
 
 exit 0
