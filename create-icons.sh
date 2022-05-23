@@ -5,10 +5,6 @@ FILES="pngs/*.png"
 for f in $FILES
 do
     src_image="$f"
-    if [ -z "$1" ]; then
-        echo "No source image was passed to this script"
-        exit 1
-    fi
 
     basename="${src_image%%.*}"
 
