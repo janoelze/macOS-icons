@@ -66,12 +66,12 @@ do
         icon="${iconset_path}/${a}"
         /bin/cp "$src_image" "$icon"
         icon_size=${icon_size[$counter]}
-        /usr/bin/sips -z $icon_size $icon_size "$icon"
+        /usr/bin/sips -z $icon_size $icon_size "$icon"&>/dev/null
         counter=$(($counter + 1))
     done
 
-    echo "Creating .icns file from $iconset_path"
-    /usr/bin/iconutil -c icns "$iconset_path"
+    echo "Creating .icns file from $f"
+    /usr/bin/iconutil -c icns "$iconset_path" &>/dev/null
     if [ $? -ne 0 ]; then
         echo "There was an error creating the .icns file"
         exit 1
