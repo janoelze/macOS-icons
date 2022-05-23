@@ -83,4 +83,12 @@ do
     cp tmp.icns "icons/${base%.*}.icns"
 done
 
+echo "# macOS Application Icons" > readme.md
+
+FILES="pngs/*.png"
+for f in $FILES
+do
+    echo "<img src='${f}' width='370'>" >> readme.md
+done
+
 exit 0
