@@ -6,6 +6,5 @@
 | <img src='pngs/Google Chrome.png' width='370'>  | [.icns](icons/iTerm.icns) [.png](pngs/iTerm.png)  |
 | <img src='pngs/Slack.png' width='370'>  | [.icns](icons/iTerm.icns) [.png](pngs/iTerm.png)  |
 | <img src='pngs/Spotify.png' width='370'>  | [.icns](icons/iTerm.icns) [.png](pngs/iTerm.png)  |
-| <img src='pngs/Telegram 2.png' width='370'>  | [.icns](icons/iTerm.icns) [.png](pngs/iTerm.png)  |
 | <img src='pngs/Telegram.png' width='370'>  | [.icns](icons/iTerm.icns) [.png](pngs/iTerm.png)  |
 | <img src='pngs/iTerm.png' width='370'>  | [.icns](icons/iTerm.icns) [.png](pngs/iTerm.png)  |
